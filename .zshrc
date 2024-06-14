@@ -122,4 +122,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Adding stuff to $PATH
 export PATH="$PATH:$HOME/.scripts"
+export PATH="$PATH:$HOME/.bin"
 
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme

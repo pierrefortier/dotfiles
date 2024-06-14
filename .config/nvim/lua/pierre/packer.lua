@@ -60,5 +60,12 @@ use('f-person/git-blame.nvim')
 
 use('nvim-tree/nvim-web-devicons')
 
+use{
+    'davidmh/mdx.nvim',
+    config='true',
+    dependencies = {"nvim-treesitter/nvim-treesitter"}
+}
+
+use 'm4xshen/autoclose.nvim'
 
 end)
