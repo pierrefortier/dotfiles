@@ -79,8 +79,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -126,3 +124,7 @@ export PATH="$PATH:$HOME/.bin"
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+
+plugins+=(zsh-vi-mode)
+
+source $ZSH/oh-my-zsh.sh
